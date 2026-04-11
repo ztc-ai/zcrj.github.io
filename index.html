@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name 的技术博客</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <!-- 可选：引入 Tailwind CSS 简化样式开发 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+&lt;/head&gt;
+&lt;body&gt;
+    <!-- 顶部导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="../index.html" class="logo">Your Blog</a>
+            <ul class="nav-list">
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="../articles/index.html">文章</a></li>
+                <li><a href="../categories/index.html">分类</a></li>
+                <li><a href="../tags/index.html">标签</a></li>
+                <li><a href="../about/index.html">关于</a></li>
+            </ul>
+        </div&gt;
+    &lt;/nav&gt;
+
+    <!-- 个人简介区 -->
+    <section class="intro">
+        <div class="container">
+            <img src="../assets/images/avatar.jpg" alt="个人头像" class="avatar">
+            <h1>Your Name</h1>
+            <p class="intro-desc">前端开发爱好者 | 技术记录者 | 终身学习者</p>
+            <p class="intro-tech">技术栈：HTML/CSS/JavaScript、Vue、React、Tailwind CSS</p>
+        </div>
+    &lt;/section&gt;
+
+    <!-- 最新文章区 -->
+    <section class="latest-articles">
+        <div class="container">
+            <h2>最新文章</h2>
+            <div class="article-list">
+                <!-- 文章卡片 1 -->
+                <div class="article-card">
+                    <a href="../post/2026-03-16-hello-github.md">
+                        <h3 class="article-title">Hello GitHub | 我的第一篇技术博客</h3>
+                        <p class="article-meta">2026-03-16 | 分类：GitHub | 标签：#GitHub #Markdown</p>
+                        <p class="article-excerpt">一直想搭建一个属于自己的技术博客，记录学习过程中的思考、问题解决思路，以及一些实用的技术总结。考虑到 GitHub 天然支持 Markdown 渲染，且无需额外搭建服务器，便决定将博客托管在 GitHub 上...</p>
+                    </a>
+                </div>
+                <!-- 文章卡片 2（可复制添加更多） -->
+                <div class="article-card">
+                    <a href="../post/2026-03-17-tailwind-css.md">
+                        <h3 class="article-title">Tailwind CSS 快速上手指南</h3>
+                        <p class="article-meta">2026-03-17 | 分类：前端开发 | 标签：#Tailwind CSS #CSS</p>
+                        <p class="article-excerpt">Tailwind CSS 是一款功能强大的 CSS 框架，无需编写复杂的 CSS 样式，通过预定义的类名即可快速构建美观、响应式的页面，极大提升前端开发效率...</p>
+                    </a>
+                </div>
+            </div>
+            <a href="../articles/index.html" class="more-articles">查看更多文章 →&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+    <!-- 分类标签区 -->
+    <section class="tags-categories">
+        <div class="container">
+            <div class="categories">
+                <h3>文章分类</h3>
+                <ul>
+                    <li><a href="../categories/index.html#github">GitHub（1）</a></li>
+                    <li><a href="../categories/index.html#frontend">前端开发（1）</a></li>
+                </ul>
+            </div>
+            <div class="tags">
+                <h3>热门标签</h3>
+                <div class="tag-list">
+                    <a href="../tags/index.html#github">#GitHub</a>
+                    <a href="../tags/index.html#markdown">#Markdown</a>
+                    <a href="../tags/index.html#tailwind">#Tailwind CSS</a>
+                    <a href="../tags/index.html#css">#CSS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- 底部 -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Your Name. All Rights Reserved.</p>
+            <div class="contact">
+                <a href="https://github.com/your-username" target="_blank">GitHub</a>
+                <a href="mailto:your-email@example.com">邮箱</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
